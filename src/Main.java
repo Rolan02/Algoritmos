@@ -1,7 +1,7 @@
-import Basic.Nivel1;
+import Basic.Easy;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Nivel1.sum(5,5));
+        System.out.println(Easy.sum(5,5));
     }
 }

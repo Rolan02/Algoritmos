@@ -1,6 +1,6 @@
 package Basic;
 
-public class Nivel1 {
+public class Easy {
 
     public static int sum(int number1, int number2) {
         return number1 + number2;
@@ -14,6 +14,6 @@ public class Nivel1 {
     }
 
     public static int countWords(String word) {
-        return 5;
+        return word.split(" ").length;
     }
 }
