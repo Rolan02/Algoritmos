@@ -10,6 +10,13 @@ public class CountBoolean {
      */
     public static int countTrue(boolean[] arr) {
         //implementa aqui tu algoritmo
-        return 1;
+        int countTrue = 0;
+    for (boolean valor : arr) {
+        if (valor) {
+            countTrue++;
+        }
     }
+        return countTrue;
+    }
+    
 }
