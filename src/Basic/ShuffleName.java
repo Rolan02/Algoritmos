@@ -9,7 +9,11 @@ public class ShuffleName {
      * @author Elver Loza
      */
     public static String nameShuffle(String string) {
-        //Implementa tu algoritmo aqui
-        return null;
+        String[] name = string.split(" ");
+        return  name[1] + " " + name[0];
     }
+
+
+
+
 }
