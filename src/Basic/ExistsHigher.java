@@ -1,13 +1,10 @@
 package Basic;
 
+import java.util.Arrays;
+
 public class ExistsHigher {
 
     public static boolean existsHigher(int[] array, int num) {
-        for (int i : array ) {
-            if ( i >= num ) {
-                return true;
-            }
-        }
-        return false;
+        return Arrays.stream(array).anyMatch(value -> value >= num);
     }
 }
