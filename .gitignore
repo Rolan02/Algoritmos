@@ -1,3 +1,5 @@
 .idea
 out
 Algoritmos.iml
+.vscode
+lib
